@@ -469,7 +469,7 @@ function RoClothes(Player)
 	local MaxBreastsType = 4
 	local MaxTorsoType = 8
 	local MaxArmType = 4
-	local MaxLegsType = 5
+	local MaxLegsType = 6
 	local MaxButtType = 3
 
 	local KEYBIND = Enum.KeyCode.Insert
@@ -8039,6 +8039,46 @@ function RoClothes(Player)
 				},
 				["Function"] = "addFreckles"
 			},
+						["Right Leg6"] = {
+				["Instance"] = "Mesh",
+				["Name"] = "Right Leg Mesh",
+				["MeshId"] = "rbxasset://RClothesContent/11725817042.mesh",
+				["Size"] = Vector3.new(1.0757273435592651, 2.028697967529297, 1.120668649673462),
+				["CFrame"] = CFrame.new(-9.87611711e-05, 0.000455433503, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+				["CFrame1"] = CFrame.new(0, -0.001, 0),
+				["Transparency"] = 0,
+				["Material"] = Enum.Material.SmoothPlastic,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = "Parent"
+				},
+				["Parent"] = {
+					[1] = "Right Leg"
+				},
+				["Scale"] = "LegsScale",
+				["AdjustScale"] = {"Size", ["CFrame1"]=300},
+				["ParentTransparency"] = 1,
+			}, 
+			["Left Leg6"] = {
+				["Instance"] = "Mesh",
+				["Name"] = "Left Leg Mesh",
+				["MeshId"] = "rbxasset://RClothesContent/11725817051.mesh",
+				["Size"] = Vector3.new(1.0757273435592651, 2.0286977291107178, 1.120668649673462),
+				["CFrame"] = CFrame.new(0.000105079263, 0.000455433503, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+				["CFrame1"] = CFrame.new(0, -0.001, 0),
+				["Transparency"] = 0,
+				["Material"] = Enum.Material.SmoothPlastic,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = "Parent"
+				},
+				["Parent"] = {
+					[1] = "Left Leg"
+				},
+				["Scale"] = "LegsScale",
+				["AdjustScale"] = {"Size", ["CFrame1"]=300},
+				["ParentTransparency"] = 1,
+			}, 
 		}
 	end
 
@@ -8608,6 +8648,80 @@ function RoClothes(Player)
 				"Glove"
 			}
 		},
+					["leftheel"] = {
+				["Instance"] = "Mesh",
+				["Name"] = "Left Heel",
+				["MeshId"] = "rbxasset://RClothesContent/92232607522801.mesh",
+				["TextureId"] = "rbxasset://RClothesContent/11725818007.png",
+				["Size"] = Vector3.new(0.9121015667915344, 0.6203000545501709, 1.0545639991760254),
+				["CFrame"] = CFrame.new(0.099708885, -0.742674768, 0.0119909737, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+				["DoubleSided"] = true,
+				["Material"] = Enum.Material.SmoothPlastic,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = Color3.fromRGB(0, 0, 0),
+				},
+				["Parent"] = {
+					[1] = "Left Leg",
+					[2] = "Left Leg Mesh",
+				},
+			},
+			["leftheelstrap"] = {
+				["Instance"] = "Mesh",
+				["Name"] = "Left Heel Strap",
+				["MeshId"] = "rbxasset://RClothesContent/135377483286145.mesh",
+				["TextureId"] = "rbxasset://RClothesContent/11725818007.png",
+				["Size"] = Vector3.new(0.9195975661277771, 0.7609500885009766, 1.039093017578125),
+				["CFrame"] = CFrame.new(0.0821268857, -0.485189617, 0.009004483, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+				["DoubleSided"] = true,
+				["Material"] = Enum.Material.SmoothPlastic,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = Color3.fromRGB(0, 0, 0),
+				},
+				["Parent"] = {
+					[1] = "Left Leg",
+					[2] = "Left Leg Mesh",
+				},
+			},
+			["rightheel"] = {
+				["Instance"] = "Mesh",
+				["Name"] = "Right Heel",
+				["MeshId"] = "rbxasset://RClothesContent/74679705510743.mesh",
+				["TextureId"] = "rbxasset://RClothesContent/11725818007.png",
+				["Size"] = Vector3.new(0.9121012091636658, 0.6203000545501709, 1.0545639991760254),
+				["CFrame"] = CFrame.new(-0.0997143686, -0.742674768, 0.0120139811, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+				["DoubleSided"] = true,
+				["Material"] = Enum.Material.SmoothPlastic,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = Color3.fromRGB(0, 0, 0),
+				},
+				["Parent"] = {
+					[1] = "Right Leg",
+					[2] = "Right Leg Mesh",
+				},
+			},
+			["rightheelstrap"] = {
+				["Instance"] = "Mesh",
+				["Name"] = "Right Heel Strap",
+				["MeshId"] = "rbxasset://RClothesContent/85233396977100.mesh",
+				["TextureId"] = "rbxasset://RClothesContent/11725818007.png",
+				["Size"] = Vector3.new(0.9195974469184875, 0.7609500885009766, 1.039093017578125),
+				["CFrame"] = CFrame.new(-0.082120508, -0.48519963, 0.00900349952, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+				["DoubleSided"] = true,
+				["Material"] = Enum.Material.SmoothPlastic,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = Color3.fromRGB(0, 0, 0),
+				},
+				["Parent"] = {
+					[1] = "Right Leg",
+					[2] = "Right Leg Mesh",
+				},
+			},
+		}
+end
 		-- Clothing Bundles --
 		["Roblox Clothing"] = {
 			["Clothing"] = {
@@ -9759,8 +9873,15 @@ function RoClothes(Player)
 				[2] = "LButtFreckles",
 			}
 		},
+		["Heels (Legs 6)"] = {
+			["Weld"] = {
+				[1] = "rightheel",
+				[2] = "rightheelstrap",
+				[3] = "leftheel",
+				[4] = "leftheelstrap",
+			},
 	}
-
+		
 	local PartList = Function.PartListDefault()
 
 	local MetaClothes = {
