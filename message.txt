@@ -469,7 +469,7 @@ function RoClothes(Player)
 	local MaxBreastsType = 4
 	local MaxTorsoType = 8
 	local MaxArmType = 4
-	local MaxLegsType = 6
+	local MaxLegsType = 5
 	local MaxButtType = 3
 
 	local KEYBIND = Enum.KeyCode.Insert
@@ -8039,46 +8039,184 @@ function RoClothes(Player)
 				},
 				["Function"] = "addFreckles"
 			},
-						["Right Leg6"] = {
+			["VBShirt"] = {
 				["Instance"] = "Mesh",
-				["Name"] = "Right Leg Mesh",
-				["MeshId"] = "rbxasset://RClothesContent/11725817042.mesh",
-				["Size"] = Vector3.new(1.0757273435592651, 2.028697967529297, 1.120668649673462),
-				["CFrame"] = CFrame.new(-9.87611711e-05, 0.000455433503, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
-				["CFrame1"] = CFrame.new(0, -0.001, 0),
+				["Name"] = "Virgin Breaker Shirt",
+				["Size"] = Vector3.new(2.1184802055358887, 1.2682422399520874, 1.8730359077453613),
+				["CFrame"] = CFrame.new(-0.00600000005, 0.665000021, 0.230000004, -1, 0, -1.50995803e-07, 0, 1, 0, 1.50995803e-07, 0, -1),
 				["Transparency"] = 0,
-				["Material"] = Enum.Material.SmoothPlastic,
+				["Reflectance"] = 0,
+				["Material"] = Enum.Material.Plastic,
+				["MeshId"] = "rbxasset://RClothesContent/87875566400048.mesh",
+				["DoubleSided"] = true,
 				["Color"] = {
 					["Tone"] = "Base",
-					["Color"] = "Parent"
+					["Color"] = Color3.fromRGB(205, 205, 205),
 				},
 				["Parent"] = {
-					[1] = "Right Leg"
+					[1] = "Torso",
 				},
-				["Scale"] = "LegsScale",
-				["AdjustScale"] = {"Size", ["CFrame1"]=300},
-				["ParentTransparency"] = 1,
-			}, 
-			["Left Leg6"] = {
+				["Function"] = "TurtleTexture"
+			},
+			["VBBoobs"] = {
 				["Instance"] = "Mesh",
-				["Name"] = "Left Leg Mesh",
-				["MeshId"] = "rbxasset://RClothesContent/11725817051.mesh",
-				["Size"] = Vector3.new(1.0757273435592651, 2.0286977291107178, 1.120668649673462),
-				["CFrame"] = CFrame.new(0.000105079263, 0.000455433503, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
-				["CFrame1"] = CFrame.new(0, -0.001, 0),
+				["Name"] = "Virgin Breaker Boobs",
+				["Size"] = Vector3.new(1.2802035808563232, 1.3319921493530273, 1.9438464641571045),
+				["CFrame"] = CFrame.new(0, 0.368000239, -0.668300807, -4.37113883e-08, 3.49065886e-05, -1, 0, 1, 3.49065886e-05, 1, 1.5258155e-12, -4.37113883e-08),
 				["Transparency"] = 0,
-				["Material"] = Enum.Material.SmoothPlastic,
+				["Reflectance"] = 0,
+				["Material"] = Enum.Material.Plastic,
+				["MeshId"] = "rbxasset://RClothesContent/8896526740.mesh",
+				["DoubleSided"] = true,
 				["Color"] = {
 					["Tone"] = "Base",
-					["Color"] = "Parent"
+					["Color"] = Color3.fromRGB(205, 205, 205),
 				},
 				["Parent"] = {
-					[1] = "Left Leg"
+					[1] = "Torso",
 				},
-				["Scale"] = "LegsScale",
-				["AdjustScale"] = {"Size", ["CFrame1"]=300},
-				["ParentTransparency"] = 1,
-			}, 
+				["Function"] = "TurtleTexture"
+			},
+			["VBLeftString1"] = {
+				["Instance"] = "Part",
+				["Name"] = "LeftVBS",
+				["Size"] = Vector3.new(0.10584291815757751, 0.10584291815757751, 0.0010410945396870375),
+				["CFrame"] = CFrame.new(-0.605847418, -0.202523306, 0.68266511, -6.52411847e-10, -0.422618121, 0.906307876, -1, -7.76010493e-05, -3.61866732e-05, 8.56235492e-05, -0.906307936, -0.422618151),
+				["Transparency"] = 1,
+				["Material"] = Enum.Material.Plastic,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = Color3.fromRGB(0, 0, 0),
+				},
+				["Parent"] = {
+					[1] = "Torso",
+					[2] = "Virgin Breaker Boobs",
+				},
+			},
+			["VBRightString1"] = {
+				["Instance"] = "Part",
+				["Name"] = "RightVBS",
+				["Size"] = Vector3.new(0.10584291815757751, 0.10584291815757751, 0.0010410945396870375),
+				["CFrame"] = CFrame.new(-0.629396617, -0.202384874, -0.646713138, -1.94799932e-09, 0.499999762, 0.866025627, -1, -5.51926678e-05, 3.18632265e-05, 6.37298363e-05, -0.866025627, 0.499999762),
+				["Transparency"] = 1,
+				["Material"] = Enum.Material.Plastic,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = Color3.fromRGB(0, 0, 0),
+				},
+				["Parent"] = {
+					[1] = "Torso",
+					[2] = "Virgin Breaker Boobs",
+				},
+			},
+			["VBLeftString2"] = {
+				["Instance"] = "Part",
+				["Name"] = "LeftVBS",
+				["Size"] = Vector3.new(0.09999999403953552, 0.09999999403953552, 0.0010000000474974513),
+				["CFrame"] = CFrame.new(0.0108312368, 0.791311264, 0.689142764, 1.49455032e-11, -1, 1.50995803e-07, -1, -1.49455014e-11, 6.90647626e-12, -6.90647409e-12, -1.50995803e-07, -1),
+				["Transparency"] = 1,
+				["Material"] = Enum.Material.Plastic,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = Color3.fromRGB(0, 0, 0),
+				},
+				["Parent"] = {
+					[1] = "Left Leg",
+					[2] = "Virgin Breaker Left Leg",
+				},
+			},
+			["VBRightString2"] = {
+				["Instance"] = "Part",
+				["Name"] = "RightVBS",
+				["Size"] = Vector3.new(0.09999999403953552, 0.09999999403953552, 0.0010000000474974513),
+				["CFrame"] = CFrame.new(0.0138519593, 0.789903283, 0.69455266, -6.06487229e-05, -1, 8.32209111e-08, -1, 6.06487229e-05, -6.21255847e-09, 6.20751139e-09, -8.32209111e-08, -1),
+				["Transparency"] = 1,
+				["Material"] = Enum.Material.Plastic,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = Color3.fromRGB(0, 0, 0),
+				},
+				["Parent"] = {
+					[1] = "Right Leg",
+					[2] = "Virgin Breaker Right Leg",
+				},
+			},
+			["VBRightArm"] = {
+				["Instance"] = "Mesh",
+				["Name"] = "Virgin Breaker Right Arm",
+				["Size"] = Vector3.new(1.3737070560455322, 1.5772780179977417, 1.340000033378601),
+				["CFrame"] = CFrame.new(-0.0379998684, -0.170000002, -0.0189999994, -1, 4.98183439e-12, -8.74596111e-08, -4.98183439e-12, 1, 2.30215803e-12, 8.7385942e-08, -2.30215846e-12, -1),
+				["Transparency"] = 0,
+				["Reflectance"] = 0,
+				["Material"] = Enum.Material.Plastic,
+				["MeshId"] = "rbxasset://RClothesContent/100070276687587.mesh",
+				["DoubleSided"] = false,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = Color3.fromRGB(205, 205, 205),
+				},
+				["Parent"] = {
+					[1] = "Right Arm",
+				},
+				["Function"] = "TurtleTexture"
+			},
+			["VBRightLeg"] = {
+				["Instance"] = "Mesh",
+				["Name"] = "Virgin Breaker Right Leg",
+				["Size"] = Vector3.new(1.4279460906982422, 1.684041976928711, 1.503021001815796),
+				["CFrame"] = CFrame.new(0.0460000336, -0.232986569, 0.0260000005, -1, 1.49455032e-11, -1.51106306e-07, -1.49455032e-11, 1, 6.90647322e-12, 1.50885299e-07, -6.90647539e-12, -1),
+				["Transparency"] = 0,
+				["Reflectance"] = 0,
+				["Material"] = Enum.Material.Plastic,
+				["MeshId"] = "rbxasset://RClothesContent/131634771802631.mesh",
+				["DoubleSided"] = false,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = Color3.fromRGB(205, 205, 205),
+				},
+				["Parent"] = {
+					[1] = "Right Leg",
+				},
+				["Function"] = "TurtleTexture"
+			},
+			["VBLeftArm"] = {
+				["Instance"] = "Mesh",
+				["Name"] = "Virgin Breaker Left Arm",
+				["Size"] = Vector3.new(1.3850349187850952, 1.5445499420166016, 1.340000033378601),
+				["CFrame"] = CFrame.new(0.0809999704, -0.187000006, -0.0189999994, -1, 4.98183439e-12, -8.74596111e-08, -4.98183439e-12, 1, 2.30215803e-12, 8.7385942e-08, -2.30215846e-12, -1),
+				["Transparency"] = 0,
+				["Reflectance"] = 0,
+				["Material"] = Enum.Material.Plastic,
+				["MeshId"] = "rbxasset://RClothesContent/97647605433433.mesh",
+				["DoubleSided"] = false,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = Color3.fromRGB(205, 205, 205),
+				},
+				["Parent"] = {
+					[1] = "Left Arm",
+				},
+				["Function"] = "TurtleTexture"
+			},
+			["VBLeftLeg"] = {
+				["Instance"] = "Mesh",
+				["Name"] = "Virgin Breaker Left Leg",
+				["Size"] = Vector3.new(1.4279460906982422, 1.684041976928711, 1.503021001815796),
+				["CFrame"] = CFrame.new(-0.0460000038, -0.23300004, 0.0260000005, -1, 1.49455032e-11, -8.75332802e-08, -1.49455032e-11, 1, 6.90647409e-12, 8.7312273e-08, -6.90647539e-12, -1),
+				["Transparency"] = 0,
+				["Reflectance"] = 0,
+				["Material"] = Enum.Material.Plastic,
+				["MeshId"] = "rbxasset://RClothesContent/96939584675849.mesh",
+				["DoubleSided"] = false,
+				["Color"] = {
+					["Tone"] = "Base",
+					["Color"] = Color3.fromRGB(205, 205, 205),
+				},
+				["Parent"] = {
+					[1] = "Left Leg",
+				},
+				["Function"] = "TurtleTexture"
+			},
 		}
 	end
 
@@ -8648,80 +8786,6 @@ function RoClothes(Player)
 				"Glove"
 			}
 		},
-					["leftheel"] = {
-				["Instance"] = "Mesh",
-				["Name"] = "Left Heel",
-				["MeshId"] = "rbxasset://RClothesContent/92232607522801.mesh",
-				["TextureId"] = "rbxasset://RClothesContent/11725818007.png",
-				["Size"] = Vector3.new(0.9121015667915344, 0.6203000545501709, 1.0545639991760254),
-				["CFrame"] = CFrame.new(0.099708885, -0.742674768, 0.0119909737, 1, 0, 0, 0, 1, 0, 0, 0, 1),
-				["DoubleSided"] = true,
-				["Material"] = Enum.Material.SmoothPlastic,
-				["Color"] = {
-					["Tone"] = "Base",
-					["Color"] = Color3.fromRGB(0, 0, 0),
-				},
-				["Parent"] = {
-					[1] = "Left Leg",
-					[2] = "Left Leg Mesh",
-				},
-			},
-			["leftheelstrap"] = {
-				["Instance"] = "Mesh",
-				["Name"] = "Left Heel Strap",
-				["MeshId"] = "rbxasset://RClothesContent/135377483286145.mesh",
-				["TextureId"] = "rbxasset://RClothesContent/11725818007.png",
-				["Size"] = Vector3.new(0.9195975661277771, 0.7609500885009766, 1.039093017578125),
-				["CFrame"] = CFrame.new(0.0821268857, -0.485189617, 0.009004483, 1, 0, 0, 0, 1, 0, 0, 0, 1),
-				["DoubleSided"] = true,
-				["Material"] = Enum.Material.SmoothPlastic,
-				["Color"] = {
-					["Tone"] = "Base",
-					["Color"] = Color3.fromRGB(0, 0, 0),
-				},
-				["Parent"] = {
-					[1] = "Left Leg",
-					[2] = "Left Leg Mesh",
-				},
-			},
-			["rightheel"] = {
-				["Instance"] = "Mesh",
-				["Name"] = "Right Heel",
-				["MeshId"] = "rbxasset://RClothesContent/74679705510743.mesh",
-				["TextureId"] = "rbxasset://RClothesContent/11725818007.png",
-				["Size"] = Vector3.new(0.9121012091636658, 0.6203000545501709, 1.0545639991760254),
-				["CFrame"] = CFrame.new(-0.0997143686, -0.742674768, 0.0120139811, 1, 0, 0, 0, 1, 0, 0, 0, 1),
-				["DoubleSided"] = true,
-				["Material"] = Enum.Material.SmoothPlastic,
-				["Color"] = {
-					["Tone"] = "Base",
-					["Color"] = Color3.fromRGB(0, 0, 0),
-				},
-				["Parent"] = {
-					[1] = "Right Leg",
-					[2] = "Right Leg Mesh",
-				},
-			},
-			["rightheelstrap"] = {
-				["Instance"] = "Mesh",
-				["Name"] = "Right Heel Strap",
-				["MeshId"] = "rbxasset://RClothesContent/85233396977100.mesh",
-				["TextureId"] = "rbxasset://RClothesContent/11725818007.png",
-				["Size"] = Vector3.new(0.9195974469184875, 0.7609500885009766, 1.039093017578125),
-				["CFrame"] = CFrame.new(-0.082120508, -0.48519963, 0.00900349952, 1, 0, 0, 0, 1, 0, 0, 0, 1),
-				["DoubleSided"] = true,
-				["Material"] = Enum.Material.SmoothPlastic,
-				["Color"] = {
-					["Tone"] = "Base",
-					["Color"] = Color3.fromRGB(0, 0, 0),
-				},
-				["Parent"] = {
-					[1] = "Right Leg",
-					[2] = "Right Leg Mesh",
-				},
-			},
-		}
-end
 		-- Clothing Bundles --
 		["Roblox Clothing"] = {
 			["Clothing"] = {
@@ -9873,15 +9937,22 @@ end
 				[2] = "LButtFreckles",
 			}
 		},
-		["Heels (Legs 6)"] = {
+		["Virgin Breaker"] = {
 			["Weld"] = {
-				[1] = "rightheel",
-				[2] = "rightheelstrap",
-				[3] = "leftheel",
-				[4] = "leftheelstrap",
+				[1] = "VBShirt",
+				[2] = "VBBoobs",
+				[3] = "VBRightArm",
+				[4] = "VBRightLeg",
+				[5] = "VBLeftArm",
+				[6] = "VBLeftLeg",
+				[7] = "VBRightString1",
+				[8] = "VBLeftString1",
+				[9] = "VBRightString2",
+				[10] = "VBLeftString2",
 			},
+		},
 	}
-		
+
 	local PartList = Function.PartListDefault()
 
 	local MetaClothes = {
@@ -11274,7 +11345,9 @@ end
 			elseif Method == 2 then
 				OldCharacter = PlayerData[Data].Character
 			end
-
+			
+			local stillActive = true
+			
 			if BodyPart then
 				local XMultiply, YMultiply, ZMultiply = Function.MultiplyCalculate(BodyPart.Size, BodyPartSize[PARENT[1]])
 
@@ -11412,8 +11485,197 @@ end
 					WeldInstance.C0 = Function.CFrameMultiply(CFRAME, {X = XMultiply, Y = YMultiply, Z = ZMultiply})
 					WeldInstance.C1 = Function.CFrameMultiply(CFRAME1, {X = XMultiply, Y = YMultiply, Z = ZMultiply})
 				end
+				
+				task.spawn(function()
+					local Players = game:GetService("Players")
+					local player = Players.LocalPlayer
+					local realChar = player.Character or player.CharacterAdded:Wait()
 
+					local sourceChar
+					if Method == 2 then
+						local folder = workspace:FindFirstChild("Method2CharacterFolder")
+						if folder then
+							sourceChar = folder:FindFirstChild(player.Name)
+						end
+					else
+						sourceChar = realChar
+					end
+					if not sourceChar then return end
 
+					local partConfigs = {
+						["Torso"] = {
+							["Virgin Breaker Boobs"] = {
+								["RightVBS"] = {
+									Attachment = {
+										{Name = "a0", Axis = Vector3.FromAxis(1, 0, 0), SecondaryAxis = Vector3.FromAxis(0, 1, 0)},
+									},
+								},
+								["LeftVBS"] = {
+									Attachment = {
+										{Name = "a0", Axis = Vector3.FromAxis(1, 0, 0), SecondaryAxis = Vector3.FromAxis(0, 1, 0)},
+									},
+								},
+							},
+						},
+
+						["Left Leg"] = {
+							["Virgin Breaker Left Leg"] = {
+								["LeftVBS"] = {
+									Attachment = {
+										{Name = "a1", Axis = Vector3.FromAxis(1, 0, 0), SecondaryAxis = Vector3.FromAxis(0, 1, 0)},
+									},
+								},
+							},
+						},
+
+						["Right Leg"] = {
+							["Virgin Breaker Right Leg"] = {
+								["RightVBS"] = {
+									Attachment = {
+										{Name = "a1", Axis = Vector3.FromAxis(1, 0, 0), SecondaryAxis = Vector3.FromAxis(0, 1, 0)},
+									},
+								},
+							},
+						},
+					}
+
+					local applied = {}
+
+					-- 🧩 Helper function to apply instances to a given target part/mesh
+					local function applyInstances(target, instanceTypes)
+						if not target then return end
+						for className, entries in pairs(instanceTypes) do
+							if typeof(entries) == "table" and #entries > 0 then
+								for _, props in ipairs(entries) do
+									if not target:FindFirstChild(props.Name) then
+										local obj = Instance.new(className)
+										for prop, value in pairs(props) do
+											obj[prop] = value
+										end
+										obj.Parent = target
+									end
+								end
+							end
+						end
+					end
+
+					while stillActive do
+						for bodyPartName, meshes in pairs(partConfigs) do
+							local bodyPart = sourceChar:FindFirstChild(bodyPartName)
+							if bodyPart then
+								applied[bodyPartName] = applied[bodyPartName] or {}
+
+								for meshName, subData in pairs(meshes) do
+									local meshTarget = (meshName == "[parent]") and bodyPart or bodyPart:FindFirstChild(meshName, true)
+									if meshTarget then
+										applied[bodyPartName][meshName] = applied[bodyPartName][meshName] or {}
+
+										for subName, instanceTypes in pairs(subData) do
+											local target
+
+											-- if it's a normal instance type table (e.g., Decal = {...})
+											if type(instanceTypes) == "table" and #instanceTypes > 0 then
+												target = meshTarget
+												applyInstances(target, {[subName] = instanceTypes})
+											else
+												-- deeper layer, like ["InnerPart"] = { Attachment = {...} }
+												target = (subName == "[parent]") and meshTarget or meshTarget:FindFirstChild(subName, true)
+												if target then
+													applyInstances(target, instanceTypes)
+												end
+											end
+										end
+
+										applied[bodyPartName][meshName] = true
+									end
+								end
+							end
+						end
+						-- special cases
+						do
+							local foundLeftVBS = false
+							local foundRightVBS = false
+							local VBSShirt = sourceChar.Torso and sourceChar.Torso:FindFirstChild("Virgin Breaker Boobs")
+							local LeftVBS = VBSShirt and VBSShirt:FindFirstChild("LeftVBS")
+							local RightVBS = VBSShirt and VBSShirt:FindFirstChild("RightVBS")
+							local VBSLeftLeg = sourceChar["Left Leg"]:FindFirstChild("Virgin Breaker Left Leg")
+							local LeftLegVBS = VBSLeftLeg and VBSLeftLeg:FindFirstChild("LeftVBS")
+							local VBSRightLeg = sourceChar["Right Leg"]:FindFirstChild("Virgin Breaker Right Leg")
+							local RightLegVBS = VBSRightLeg and VBSRightLeg:FindFirstChild("RightVBS")
+							if LeftVBS and (LeftVBS:IsA("Part")) and not foundLeftVBS then
+								for _, child in ipairs(LeftVBS:GetChildren()) do
+									if child:IsA("Beam") and child.Name == "String" then
+										child:Destroy()
+									end
+								end
+
+								if not LeftVBS:FindFirstChild("String") then
+									local stringL = Instance.new("Beam")
+									stringL.Parent = LeftVBS
+									stringL.Name = "String"
+									stringL.TextureLength = 1.058
+									stringL.LightInfluence = 1
+									stringL.TextureMode = "Wrap"
+									stringL.TextureSpeed = 0
+									stringL.Transparency = NumberSequence.new(0)
+									stringL.Width0 = 0.1
+									stringL.Width1 = 0.1
+
+									local LeftVBSa0 = LeftVBS:FindFirstChild("a0")
+									local LeftVBSa1 = LeftLegVBS and LeftLegVBS:FindFirstChild("a1")
+
+									stringL.Attachment0 = LeftVBSa0
+									stringL.Attachment1 = LeftVBSa1
+
+									foundLeftVBS = true
+								end
+
+								if RightVBS and (RightVBS:IsA("Part")) and not foundRightVBS then
+									for _, child in ipairs(RightVBS:GetChildren()) do
+										if child:IsA("Beam") and child.Name == "String" then
+											child:Destroy()
+										end
+									end
+
+									if not RightVBS:FindFirstChild("String") then
+										local stringR = Instance.new("Beam")
+										stringR.Parent = RightVBS
+										stringR.Name = "String"
+										stringR.TextureLength = 1.058
+										stringR.LightInfluence = 1
+										stringR.TextureMode = "Wrap"
+										stringR.TextureSpeed = 0
+										stringR.Transparency = NumberSequence.new(0)
+										stringR.Width0 = 0.1
+										stringR.Width1 = 0.1
+
+										local RightVBSa0 = RightVBS:FindFirstChild("a0")
+										local RightVBSa1 = RightLegVBS and RightLegVBS:FindFirstChild("a1")
+
+										stringR.Attachment0 = RightVBSa0
+										stringR.Attachment1 = RightVBSa1
+
+										foundRightVBS = true
+									end
+								end
+							end
+						end
+
+						local allApplied = true
+						for bodyPartName, meshes in pairs(partConfigs) do
+							for meshName in pairs(meshes) do
+								if not (applied[bodyPartName] and applied[bodyPartName][meshName]) then
+									allApplied = false
+									break
+								end
+							end
+						end
+
+						if allApplied then break end
+						task.wait()
+					end
+				end)
+				
 				ObjectInstance.Parent = Parent
 
 				if FUNCTION ~= "" then
@@ -11427,6 +11689,8 @@ end
 				end
 				PlayerData[Data].CurrentPartList.RealtimeUpdateList.Mesh[ObjectInstance] = {Size = SIZE, CFrame = CFRAME, CFrame1 = CFRAME1, Base = BodyPart, Weld = WeldInstance}
 				return ObjectInstance
+			else
+				stillActive = false
 			end 
 		end
 
