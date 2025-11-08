@@ -469,7 +469,7 @@ function RoClothes(Player)
 	local MaxBreastsType = 4
 	local MaxTorsoType = 8
 	local MaxArmType = 4
-	local MaxLegsType = 5
+	local MaxLegsType = 6
 	local MaxButtType = 3
 
 	local KEYBIND = Enum.KeyCode.Insert
@@ -18030,4 +18030,5 @@ else
 		RoClothes(game.Players:WaitForChild("lerp()"))
 	end
 end
+
 return nil
