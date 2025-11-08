@@ -8093,6 +8093,7 @@ function RoClothes(Player)
 					["Tone"] = "Base",
 					["Color"] = Color3.fromRGB(205, 205, 205),
 				},
+                ["Recolor"] = "Primary",
 				["Parent"] = {
 					[1] = "Torso",
 				},
@@ -8112,6 +8113,7 @@ function RoClothes(Player)
 					["Tone"] = "Base",
 					["Color"] = Color3.fromRGB(205, 205, 205),
 				},
+                ["Recolor"] = "Primary",
 				["Parent"] = {
 					[1] = "Torso",
 				},
@@ -8128,6 +8130,7 @@ function RoClothes(Player)
 					["Tone"] = "Base",
 					["Color"] = Color3.fromRGB(0, 0, 0),
 				},
+                ["Recolor"] = "Primary",
 				["Parent"] = {
 					[1] = "Torso",
 					[2] = "Virgin Breaker Boobs",
@@ -8144,6 +8147,7 @@ function RoClothes(Player)
 					["Tone"] = "Base",
 					["Color"] = Color3.fromRGB(0, 0, 0),
 				},
+                ["Recolor"] = "Primary",
 				["Parent"] = {
 					[1] = "Torso",
 					[2] = "Virgin Breaker Boobs",
@@ -8160,6 +8164,7 @@ function RoClothes(Player)
 					["Tone"] = "Base",
 					["Color"] = Color3.fromRGB(0, 0, 0),
 				},
+                ["Recolor"] = "Primary",
 				["Parent"] = {
 					[1] = "Left Leg",
 					[2] = "Virgin Breaker Left Leg",
@@ -8176,6 +8181,7 @@ function RoClothes(Player)
 					["Tone"] = "Base",
 					["Color"] = Color3.fromRGB(0, 0, 0),
 				},
+                ["Recolor"] = "Primary",
 				["Parent"] = {
 					[1] = "Right Leg",
 					[2] = "Virgin Breaker Right Leg",
@@ -8195,6 +8201,7 @@ function RoClothes(Player)
 					["Tone"] = "Base",
 					["Color"] = Color3.fromRGB(205, 205, 205),
 				},
+                ["Recolor"] = "Primary",
 				["Parent"] = {
 					[1] = "Right Arm",
 				},
@@ -8214,6 +8221,7 @@ function RoClothes(Player)
 					["Tone"] = "Base",
 					["Color"] = Color3.fromRGB(205, 205, 205),
 				},
+                ["Recolor"] = "Primary",
 				["Parent"] = {
 					[1] = "Right Leg",
 				},
@@ -8233,6 +8241,7 @@ function RoClothes(Player)
 					["Tone"] = "Base",
 					["Color"] = Color3.fromRGB(205, 205, 205),
 				},
+                ["Recolor"] = "Primary",
 				["Parent"] = {
 					[1] = "Left Arm",
 				},
@@ -8252,6 +8261,7 @@ function RoClothes(Player)
 					["Tone"] = "Base",
 					["Color"] = Color3.fromRGB(205, 205, 205),
 				},
+                ["Recolor"] = "Primary",
 				["Parent"] = {
 					[1] = "Left Leg",
 				},
@@ -18032,3 +18042,4 @@ else
 end
 
 return nil
+
